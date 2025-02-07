@@ -1,0 +1,121 @@
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Bold\ font.ttf);
+    font-weight: bold;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Bold\ Italic\ font.ttf);
+    font-weight: bold;
+    font-style: italic;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Book\ font.ttf);
+    font-weight: 500;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Book\ Italic\ font.ttf);
+    font-weight: 500;
+    font-style: italic;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Extra\ Black\ font.ttf);
+    font-weight: 600;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Heavy\ font.ttf);
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Heavy\ Italic\ font.ttf);
+    font-weight: 400;
+    font-style: italic;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/futura\ medium\ bt.ttf);
+    font-weight: 300;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Medium\ Italic\ font.ttf);
+    font-weight: 300;
+    font-style: italic;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/futura\ medium\ condensed\ bt.ttf);
+    font-weight: 200;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/futura\ light\ bt.ttf);
+    font-weight: 100;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:'Futura';
+    src: url(/font-style/Futura\ Light\ Italic\ font.ttf);
+    font-weight: 100;
+    font-style:italic;    
+}
+
+:root{
+    font-family: 'Futura';
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar{
+    display: flex;
+    position: static;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.feature-list li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.feature-list a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.feature-list a:hover {
+    background-color: wheat;
+}
+
+
+
