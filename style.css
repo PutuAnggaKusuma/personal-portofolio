@@ -82,13 +82,26 @@
     font-style:italic;    
 }
 
+*{
+    margin: 0;
+    padding: 0;    
+}
+
 :root{
     font-family: 'Futura';
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* display: flex; */
+    height: 100%;    
+
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .navbar{
+    margin-top: 10px;
     display: flex;
     position: static;
     align-items: center;
@@ -116,6 +129,110 @@
 .feature-list a:hover {
     background-color: wheat;
 }
+
+.hero{
+    margin-top: 10px;
+    background-image:url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    /* background-image: url(assets/slideshow-image.png); */
+    min-height: 85vh;      
+    background-position:center;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.content{
+    align-content: end;
+    padding-left: 50px;    
+}
+  
+.content h1{  
+    text-transform: uppercase;    
+    color: white;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;    
+    margin: 0;
+}
+
+.content p{ 
+    position: relative; 
+    text-transform: uppercase;    
+    color: white;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;   
+    margin: 0 0 20px 0;
+}
+
+#about {   
+padding-top: 50px;
+justify-items: center;
+align-items: center;
+flex-direction: column;
+display: flex;
+width: 100%;
+  
+}
+
+.about-me{    
+    font-family: 'Futura';
+    font-weight: 300;
+    font-style: normal;    
+    font-size: 24px;   
+}
+
+.content-about{   
+   padding-top: 10px;
+    font-family: 'Futura';
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+}
+
+#project{
+    padding-top: 100px;
+    justify-items: center; 
+    width: 100%;
+}
+
+.project-list{       
+    width: 100%;
+    display: flex;
+}
+
+.project-category{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    list-style: none;       
+} 
+
+.project-category a{
+    text-decoration: none;
+    color: grey;
+    font-size: 24px;
+    font-family: 'Futura';
+    font-weight: 300;
+    font-style: normal; 
+}
+
+.project-category a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: 'Futura';
+    font-weight: 300;
+    font-style: normal; 
+    text-decoration: underline;
+}
+
 
 
 
